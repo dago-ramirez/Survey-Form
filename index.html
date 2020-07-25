@@ -28,7 +28,7 @@
                 <input type="number" name="age" id="number" min="10" max="99"  class="form-control" placeholder="Age"><br>
             </div>
             <div class="form-group">
-                <p>Which option best describes your current role?</p><br>   
+                <label>Which option best describes your current role?</label> 
                 <select name="role" id="dropdown" class="form-control">
                     <option disabled selected value>Select your current role</option>
                     <option value="student">Student</option>
@@ -39,10 +39,12 @@
                 </select>
             </div>
             <div class="form-group">
-                <p>Would you recommend freeCodeCamp to a friend?</p>
-                <label><input type="radio" name="recommend" checked>Definitely</label>
-                <label><input type="radio" name="recommend">Maybe</label>
-                <label><input type="radio" name="recommend">Not Sure</label>
+                <fieldset>
+                    <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                    <label><input type="radio" name="recommend" checked>Definitely</label>
+                    <label><input type="radio" name="recommend">Maybe</label>
+                    <label><input type="radio" name="recommend">Not Sure</label>
+                </fieldset>
             </div>
             <div class="form-group">
                 <p>What is your favorite feature of freeCodeCamp?</p>

@@ -64,10 +64,10 @@ header p {
 }
 
 button {
-    background-color: rgb(151, 197, 151);
-    color: black;    
+    background-color: #37af65;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+    cursor: pointer;
 }
