@@ -5,6 +5,7 @@ body {
     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     font-family: sans-serif;
 }
+
 .container {    
     display: flex;
     flex-direction: column;
